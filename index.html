@@ -1,77 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>My Resume</title>
-    <style>
-        .alignCenter {
-            margin: 0 auto;
-            display: block;
-            text-align: center
-        }
-        .garrettPicture {
-            height: 100px;
-            width: 100px;
-        }
-        .contactInfo {
-            display: inline-block;
-        }
-        .alignInline h3, .alignInline h4 {
-            display: inline-block;
-        }
-    </style>
-</head>
-<body>
-    <div class="alignCenter">
-        <img src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-8/19388648_10213913731020725_304028824154656223_o.jpg?oh=1341b303f55083952612e4e1332fbda7&oe=5AF25D87"
-        alt="Garrett Miller" title="Garrett Miller" class="garrettPicture"/>
-        <h1>Garrett Miller</h1>
-        <div class="contactInfo">
-            <a href="tel:+14804405707" title="Contact Garrett Miller by Phone" alt="Contact Garrett Miller by Phone">(480)-440-5707</a> | <a href="mailto:Garrett@akosweb.com" title="Contact Garrett Miller by Email" alt="Contact Garrett Miller by Email">Garrett@akosweb.com</a>
-        </div>
-        <p><a href="https://goo.gl/maps/uRSKpW9HhnB2" title="View on Google Maps" alt="View on Google Maps">1241 E Portland St<br/>Phoenix, AZ 85006</a></p>
-    </div>
-    <hr/>
-    <div>
-        <h3>Objective</h3>
-        <p>To become more experienced in IoT programming, LAMP Stack development, mobile application development, and UI/UX Design.</p>
-        <h3>Education</h3>
-        <table>
-            <tr>
-                <td>Highschool: graduated in 2014, completed with at least 3.0 gpa from Hamilton High School</td>
-            </tr>
-            <tr>
-                <td>College: 2014-2018, ASU, Degree in Digital Culture, expected to graduate in fall of 2018 with at least 3.0 gpa</td>
-            </tr>
-        </table>
-        <h3>Skills</h3>
-        <ul>
-            <li>PHP</li>
-            <li>Javascript</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>MYSQL</li>
-            <li>React-Native</li>
-            <li>UI/UX Design</li>
-            <li>Non-profit Work</li>
-            <li>CMS Security</li>
-            <li>Branding</li>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Resume - Garrett Miller</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">My Resume</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-8/19388648_10213913731020725_304028824154656223_o.jpg?oh=1341b303f55083952612e4e1332fbda7&oe=5AF25D87" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#objective">Objective</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
         </ul>
-        <h3>Experience</h3>
-        <div class="alignInline">
-            <h3>IT Support: </h3>
-            <h4>2012-2014 with CCS Arizona</h4>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Garrett
+            <span class="text-primary">Miller</span>
+          </h1>
+          <div class="subheading mb-5">1241 E Portland St · Phoenix, AZ 85006 · (480) 585-8468 ·
+            <a href="mailto:name@email.com">Garrett@akosweb.com</a>
+          </div>
+          <p class="mb-5">I am an experienced web developer with specialties ranging from react native app development to customized solutions to fit your specific website development needs. I excel at problem solving and finding unique solutions.</p>
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="http://facebook.com/flurred">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="http://twitter.com/flurred">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="http://instagram.com/myxmatch">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="http://github.com/myxmatch">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
         </div>
-        <div class="alignInline">
-            <h3>Web Developer/Mobile App Developer: </h3>
-            <h4>2014-2018, currently, at Akosweb Marketing LLC</h4>
+      </section>
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="objective">
+        <div class="my-auto">
+          <h2 class="mb-5">Objective</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">To Become The Very Best</h3>
+              <div class="subheading mb-3">Like no one ever was</div>
+              <p>My objective is to become more experienced in IoT programming, LAMP Stack development, mobile application development, and UI/UX Design. Overall I'd like to hone my skills in a variety of different places.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">March 2015 - Present</span>
+            </div>
+          </div>
+
         </div>
-        <h3>References</h3>
-            <ol>
-                <li>Sahil Saini - CEO of AKOS</li>
-                <li>Robin Armbruster - IT Support CCS</li>
-                <li>Tanya Moushi - Business Consultant</li>
-            </ol>
+
+      </section>
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Arizona State University</h3>
+              <div class="subheading mb-3">Bachelors in Digital Culture</div>
+              <div>Media Processing Focus</div>
+              <p>GPA: 3.45</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2014 - Current</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Hamilton High School</h3>
+              <div class="subheading mb-3">General Education</div>
+              <p>GPA: 3.42</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2010 - May 2014</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicons-html5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-css3"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-react"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-php"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-mysql"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-photoshop"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-illustrator"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-laravel"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-javascript"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-jquery"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-sass"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-bootstrap"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-wordpress"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-grunt"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-gulp"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-npm"></i>
+            </li>
+          </ul>
+
+          <div class="subheading mb-3">Workflow</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Mobile-First, Responsive Design</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Cross Browser Testing &amp; Debugging</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Agile Development &amp; Scrum</li>
+          </ul>
+        </div>
+      </section>
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Senior Web Developer</h3>
+              <div class="subheading mb-3">AKOS Web Marketing</div>
+              <p>Extensive solution brainstorming and out of the box idea fulfillment. Dedicated to creating unique and interesting solutions that meet user needs while still being beautiful.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">March 2015 - Present</span>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
     </div>
-</body>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
+
 </html>
